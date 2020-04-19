@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="streak">Streak:</string>
+    <string name="enter_the_number_here">Enter the number here</string>
+    <string name="submit">SUBMIT</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+    <string name="_0">0</string>
+</resources>
