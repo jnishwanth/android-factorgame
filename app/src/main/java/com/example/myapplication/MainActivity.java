@@ -98,6 +98,12 @@ public class MainActivity extends AppCompatActivity {
                 number = 0;
                 number = Integer.valueOf(numinput.getText().toString());
 
+                if (number>=0 && number<=3)
+                    {
+                        showToast("Come on! Challenge yourself more!");
+                        return;
+                    }
+
                 for( i=1; i<=number; ++i )
                     if (number % i == 0) {
                         f[j] = i;
